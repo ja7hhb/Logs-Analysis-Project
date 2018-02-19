@@ -67,7 +67,7 @@ where log.path!='/' and log.status='200 OK' GROUP BY
 articles.title, articles.author order by view desc;
 ```
 
-7. Return to /vagrant directory and type `python3 logs.py`, then output is like this:
+7. Return to /vagrant directory and type `python3 log.py`, then output is like this:
 ```
 vagrant@vagrant:/vagrant$ python3 log.py
 
