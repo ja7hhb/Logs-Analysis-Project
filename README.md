@@ -12,9 +12,12 @@ Question is:
 
 The database includes three tables:
 
-The authors table includes information about the authors of articles.
-The articles table includes the articles themselves.
-The log table includes one entry for each time a user has accessed the site.
+1. Authors table:
+Includes information about the authors of articles.
+2. Articles table:
+Includes the articles themselves.
+3. Log table:
+Includes one entry for each time a user has accessed the site.
 
 ## -Installation-
 
