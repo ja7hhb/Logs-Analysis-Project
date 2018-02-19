@@ -35,7 +35,7 @@ $ vagrant up
 $ vagrant ssh
 ```
 
-3. Change directory to /vagrant, so lools like this
+3. Change directory to /vagrant:
 ```
 vagrant@vagrant:~$ cd /vagrant
 vagrant@vagrant:/vagrant$ 
@@ -43,8 +43,18 @@ vagrant@vagrant:/vagrant$
 
 4. Load the data to load database, using this command:
  ```
- psql -d news -f newsdata.sql
+ vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql
  ```
+
+5.Connect to the database:
+```
+vagrant@vagrant:/vagrant$ psql -d news
+psql (9.5.11)
+Type "help" for help.
+
+news=> 
+
+```
 
 5. Create Views
 ```
