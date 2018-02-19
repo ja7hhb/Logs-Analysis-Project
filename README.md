@@ -21,7 +21,7 @@ Includes one entry for each time a user has accessed the site.
 
 ## -Installation-
 
-1. Install [Python3](https://www.python.org/downloads/) and [Vagrant]https://www.vagrantup.com/downloads.html, [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+1. Install [Python3](https://www.python.org/downloads/) and [Vagrant](https://www.vagrantup.com/downloads.html), [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2. Download or clone from [github fullstack-nandegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) repository
 3. Now we got newsdata.sql in our vagrant directory and now we are good to go.
 
