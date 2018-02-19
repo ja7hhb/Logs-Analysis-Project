@@ -1,8 +1,31 @@
-Logs Analysis-Project
+-Logs Analysis-Project-
 
-Introduction
+-Introduction-
 
+@@@
+This project is part of Full Stack Nanodegree.
+Use the given database to analyze the data for the given three questions.
+
+1. What are the most popular three articles of all time?
+2. Who are the most popular article authors of all time?
+3. On which days did more than 1% of requests lead to errors?
+@@@
 This project includes a Vagrant virtual environment and VirtualBox. To use it, install VirtualBox and (Vagrant), and follow the project installation steps bellow.
+
+
+The database includes three tables:
+
+The authors table includes information about the authors of articles.
+The articles table includes the articles themselves.
+The log table includes one entry for each time a user has accessed the site.
+
+Question is:
+
+What are the most popular three articles of all time?
+Who are the most popular article authors of all time?
+On which days did more than 1% of requests lead to errors?
+
+
 
 Installation
 
