@@ -2,8 +2,8 @@
 
 ## -Introduction-
 
-##This project is part of Full Stack Nanodegree.
-Use the given database to analyze the data for the given three questions.##
+## This project is part of Full Stack Nanodegree.
+Use the given database to analyze the data for the given three questions. ##
 
 Question is:
 1. What are the most popular three articles of all time?
@@ -21,19 +21,19 @@ Includes one entry for each time a user has accessed the site.
 
 ## -Installation-
 
-1. Install [Python3](https://www.python.org/downloads/) and [Vagrant](https://www.vagrantup.com/downloads.html), [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+1. Install [Python3](https://www.python.org/downloads/) and [Vagrant](https://www.vagrantup.com/downloads.html), [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 2. Download or clone from [github fullstack-nandegree-vm](https://github.com/udacity/fullstack-nanodegree-vm) repository
 3. Now we got newsdata.sql in our vagrant directory and now we are good to go.
 
 ## -How to run-
 
 1. Change directory to vagrant directory then
-type this command to run the vagrant on vm
+type this command to run the vagrant on vm:
 ```
 $ vagrant up
 ```
 
-2. Then type this command to login into vm
+2. Then type this command to login into vm:
 ```
 $ vagrant ssh
 ```
@@ -58,7 +58,7 @@ Type "help" for help.
 news=> 
 ```
 
-6. Create Views
+6. Create Views:
 ```
 news=> create view title_view as select articles.title,
 articles.author, COUNT(*) as view from log inner join 
@@ -67,7 +67,7 @@ where log.path!='/' and log.status='200 OK' GROUP BY
 articles.title, articles.author order by view desc;
 ```
 
-7. Run `python3 logs.py` output is like this:
+7. Run `python3 logs.py`, then output is like this:
 ```
 vagrant@vagrant:/vagrant$ python3 log.py
 
