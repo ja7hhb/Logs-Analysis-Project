@@ -48,7 +48,9 @@ vagrant@vagrant:/vagrant$
 
 5. Create Views
 ```
-news=> create view title_view as select articles.title, articles.author, COUNT(*) as view from log inner join articles on log.path like '%' || articles.slug where log.path!='/' and log.status='200 OK' GROUP BY articles.title, articles.author order by view desc;
+news=> create view title_view as select articles.title,articles.author, 
+COUNT(*) as view from log inner join articles on log.path like '%' || articles.slug 
+where log.path!='/' and log.status='200 OK' GROUP BY articles.title, articles.author order by view desc;
 ```
 
 6. Run `python3 logs.py` output is like this:
