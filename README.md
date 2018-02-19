@@ -46,7 +46,7 @@ vagrant@vagrant:/vagrant$
  vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql
  ```
 
-5.Connect to the database:
+5. Connect to the database:
 ```
 vagrant@vagrant:/vagrant$ psql -d news
 psql (9.5.11)
@@ -56,7 +56,7 @@ news=>
 
 ```
 
-5. Create Views
+6. Create Views
 ```
 news=> create view title_view as select articles.title,
 articles.author, COUNT(*) as view from log inner join 
@@ -65,7 +65,7 @@ where log.path!='/' and log.status='200 OK' GROUP BY
 articles.title, articles.author order by view desc;
 ```
 
-6. Run `python3 logs.py` output is like this:
+7. Run `python3 logs.py` output is like this:
 ```
 vagrant@vagrant:/vagrant$ python3 log.py
 
