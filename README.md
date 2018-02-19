@@ -3,7 +3,7 @@
 ## -Introduction-
 
 ## This project is part of Full Stack Nanodegree.
-Use the given database to analyze the data for the given three questions. ##
+## Use the given database to analyze the data for the given three questions. ##
 
 Question is:
 1. What are the most popular three articles of all time?
