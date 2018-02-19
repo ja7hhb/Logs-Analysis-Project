@@ -53,7 +53,6 @@ psql (9.5.11)
 Type "help" for help.
 
 news=> 
-
 ```
 
 6. Create Views
