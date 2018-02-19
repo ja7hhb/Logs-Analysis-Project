@@ -1,8 +1,7 @@
-# Logs Analysis-Project
+# -Logs Analysis-Project-
 
--Introduction-
+##-Introduction-
 
-@@@
 This project is part of Full Stack Nanodegree.
 Use the given database to analyze the data for the given three questions.
 
@@ -10,7 +9,6 @@ Question is:
 1. What are the most popular three articles of all time?
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of requests lead to errors?
-@@@
 
 The database includes three tables:
 
@@ -18,19 +16,17 @@ The authors table includes information about the authors of articles.
 The articles table includes the articles themselves.
 The log table includes one entry for each time a user has accessed the site.
 
--Requirements-
-
-
+##-Requirements-
 
 This project includes a Vagrant virtual environment and VirtualBox. To use it, install VirtualBox and Vagrant, and follow the project installation steps bellow.
 
-Installation
+##-Installation-
 
 1. Install Vagrant and VirtualBox
 2. Download or clone from github fullstack-nandegree-vm repository
 3. Now we got newsdata.sql in our vagrant directory and now we are good to go.
 
-How to run
+##-How to run-
 
 1. Change directory to vagrant directory then
 type this command to run the vagrant on vm
